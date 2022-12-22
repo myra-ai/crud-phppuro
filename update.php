@@ -42,7 +42,7 @@
         <h4 class="display-4 text-center">Editar </h4><br> <br>
             <div class="form-group">
                 <label for="nome">Nome</label>
-                <input type="name" class="form-control" id="nome" name="nome" value="<?=$row['nome'];?>" required disabled>
+                <input type="name" class="form-control" id="nome" name="nome" value="<?=$row['nome'];?>" required>
             </div>
 
             <div class="form-group">
@@ -62,7 +62,7 @@
 
             <div class="form-group">
                 <label for="fone">Telefone:</label>
-                <input type="text" class="form-control" id="fone" name="fone"  value="<?=$row['nome'];?>" required>
+                <input type="text" class="form-control" id="fone" name="fone"  value="<?=$row['fone'];?>" required>
             </div>
 
             <div class="form-group">
